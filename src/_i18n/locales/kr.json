@@ -1,0 +1,62 @@
+{
+  "editor": {
+    "mail_display_type": {
+      "desktop": "데스크톱",
+      "mobile": "모바일"
+    },
+    "tabs": {
+      "element": "요소",
+      "style": "스타일",
+      "hierarchy": "계층"
+    },
+    "primitives": {
+      "text": "텍스트",
+      "button": "버튼",
+      "image": "이미지",
+      "divider": "분할기",
+      "video": "비디오",
+      "spacer": "간격",
+      "navbar": "내비게이션",
+      "social": "소셜",
+      "hero": "히어로"
+    },
+    "sections": {
+      "layout": "레이아웃",
+      "column_1": "1 열",
+      "column_2": "2 열",
+      "column_3": "3 열",
+      "column_4": "4 열",
+      "column_5": "5 열"
+    },
+    "block_type_selection": {
+      "custom": "사용자 정의",
+      "default": "기본값",
+      "content": "콘텐츠"
+    },
+    "customization": {
+      "title": "스타일",
+      "type": {
+        "general": "스타일",
+        "button": "버튼"
+      },
+      "accordions": {
+        "block": "블록",
+        "border": "테두리",
+        "content": "콘텐츠",
+        "dimensions": "치수",
+        "typography": "타이포그래피"
+      },
+      "labels": {
+        "textAlignment": "텍스트 정렬",
+        "background": "배경",
+        "borderWidth": "테두리 너비",
+        "borderColor": "테두리 색상",
+        "borderRadius": "테두리 반경",
+        "borderStyle": "테두리 스타일"
+      },
+      "mailing_parameter": {
+        "title": "메일 매개변수"
+      }
+    }
+  }
+}

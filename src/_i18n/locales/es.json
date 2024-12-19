@@ -1,0 +1,62 @@
+{
+  "editor": {
+    "mail_display_type": {
+      "desktop": "Escritorio",
+      "mobile": "Móvil"
+    },
+    "tabs": {
+      "element": "Elemento",
+      "style": "Estilo",
+      "hierarchy": "Jerarquía"
+    },
+    "primitives": {
+      "text": "Texto",
+      "button": "Botón",
+      "image": "Imagen",
+      "divider": "Divisor",
+      "video": "Vídeo",
+      "spacer": "Espaciador",
+      "navbar": "Nav",
+      "social": "Social",
+      "hero": "Hero"
+    },
+    "sections": {
+      "layout": "Diseño",
+      "column_1": "1 Columna",
+      "column_2": "2 Columnas",
+      "column_3": "3 Columnas",
+      "column_4": "4 Columnas",
+      "column_5": "5 Columnas"
+    },
+    "block_type_selection": {
+      "custom": "Personalizado",
+      "default": "Predeterminado",
+      "content": "Contenido"
+    },
+    "customization": {
+      "title": "Estilo",
+      "type": {
+        "general": "Estilo",
+        "button": "Botón"
+      },
+      "accordions": {
+        "block": "Bloque",
+        "border": "Borde",
+        "content": "Contenido",
+        "dimensions": "Dimensiones",
+        "typography": "Tipografía"
+      },
+      "labels": {
+        "textAlignment": "Alineación de texto",
+        "background": "Fondo",
+        "borderWidth": "Ancho",
+        "borderColor": "Color",
+        "borderRadius": "Radio",
+        "borderStyle": "Estilo"
+      },
+      "mailing_parameter": {
+        "title": "Parámetros de correo"
+      }
+    }
+  }
+}

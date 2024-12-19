@@ -1,0 +1,62 @@
+{
+  "editor": {
+    "mail_display_type": {
+      "desktop": "Desktop",
+      "mobile": "Mobile"
+    },
+    "tabs": {
+      "element": "Element",
+      "style": "Style",
+      "hierarchy": "Hierarchy"
+    },
+    "primitives": {
+      "text": "Text",
+      "button": "Button",
+      "image": "Image",
+      "divider": "Divider",
+      "video": "Video",
+      "spacer": "Spacer",
+      "navbar": "Nav",
+      "social": "Social",
+      "hero": "Hero"
+    },
+    "sections": {
+      "layout": "Layout",
+      "column_1": "1 Column",
+      "column_2": "2 Columns",
+      "column_3": "3 Columns",
+      "column_4": "4 Columns",
+      "column_5": "5 Columns"
+    },
+    "block_type_selection": {
+      "custom": "Custom",
+      "default": "Default",
+      "content": "Content"
+    },
+    "customization": {
+      "title": "Style",
+      "type": {
+        "general": "Style",
+        "button": "Button"
+      },
+      "accordions": {
+        "block": "Block",
+        "border": "Border",
+        "content": "Content",
+        "dimensions": "Dimensions",
+        "typography": "Typography"
+      },
+      "labels": {
+        "textAlignment": "Text alignment",
+        "background": "Background",
+        "borderWidth": "Width",
+        "borderColor": "Color",
+        "borderRadius": "Radius",
+        "borderStyle": "Style"
+      },
+      "mailing_parameter": {
+        "title": "Mailing parameters"
+      }
+    }
+  }
+}
