@@ -33,3 +33,6 @@ export enum MailDisplaySize {
   DESKTOP = 600,
   MOBILE = 320,
 }
+
+export type RecordKey = string | number | symbol;
+export type AnyRecord = Record<RecordKey, unknown>;

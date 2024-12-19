@@ -1,3 +1,4 @@
+import { AnyRecord } from '@app/_core/types';
 import { BlockType } from '../../blocks/blocks';
 
 export interface WithMaybeChildren {
@@ -16,8 +17,5 @@ export interface WithType {
   type: BlockType;
   children: WithDataId[];
 }
-
-export type RecordKey = string | number | symbol;
-export type AnyRecord = Record<RecordKey, unknown>;
 
 export type AnyBlockWithChildren = WithChildren & AnyRecord;

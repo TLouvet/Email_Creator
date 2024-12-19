@@ -1,3 +1,4 @@
+import { AnyRecord } from '@app/_core/types';
 import { locales } from './Locales';
 
 export function isAcceptedLocale(locale: string): boolean {
@@ -36,12 +37,12 @@ export function getLocale(defaultLang: string, localeStorageKey = 'locale'): str
  * @example getValueFromTranslationData({ a: { b: { c: 'value' } } }, 'a.b.d') // returns 'a.b.d'
  * @example getValueFromTranslationData({ a: { b: { c: 'value' } } }, 'a.b') // returns 'a.b'
  */
-export function getValueFromTranslationData(data: Record<string, string>, key: string): string {
+export function getValueFromTranslationData(data: AnyRecord, key: string): string {
   if (!data) {
     return key;
   }
 
-  const value = parseKey(key).reduce<Record<string, string> | string>((acc, val) => {
+  const value = parseKey(key).reduce<AnyRecord | string>((acc, val) => {
     // If we have a string, it's that either the value was found or we have a key that does not exist
     if (isString(acc)) {
       return acc;
@@ -53,7 +54,7 @@ export function getValueFromTranslationData(data: Record<string, string>, key: s
     }
 
     // If we still have an object, we keep digging
-    return acc[val];
+    return acc[val] as AnyRecord;
   }, data);
 
   if (typeof value === 'string') {
