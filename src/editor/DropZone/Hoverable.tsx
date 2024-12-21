@@ -19,14 +19,14 @@ export function Hoverable({ children, data_id, db }: HoverableProps) {
   const isSelected = !!data_id && currentBlock?.data_id === data_id;
   const removeBlock = useRemoveBlock();
   const duplicateBlock = useDuplicateBlock();
-  const hoveredBlock = useSelectHoverBlock();
+  const hoveredBlock: any = useSelectHoverBlock();
 
   const dragBlockType = useSelectDragBlockType();
   const ref = useRef<HTMLDivElement>(null);
 
   return (
     <>
-      <div className={'relative'}>
+      <div className='relative'>
         <div
           className={clsx(
             'absolute top-0 left-0 w-full h-full',
@@ -36,6 +36,7 @@ export function Hoverable({ children, data_id, db }: HoverableProps) {
           data-exportable='false'
           ref={ref}
         />
+
         {children}
         {/* BLock Menu */}
         {isSelected && (

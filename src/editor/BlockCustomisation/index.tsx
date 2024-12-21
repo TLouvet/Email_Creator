@@ -22,7 +22,7 @@ const views = {
   [BlockType.SPACER]: SpacerCustomization,
   [BlockType.DIVIDER]: DividerCustomization,
   [BlockType.CONTAINER]: NoCustomization, // The containers are not meant to be customized directly, but rather with the BlockAccordion component
-} satisfies Record<BlockType, React.ComponentType<{ block: any }>>;
+};
 
 export function BlockCustomization() {
   const { t } = useTranslation();

@@ -21,7 +21,7 @@ export const useSwitchMailDisplay = () => {
   return (view: MailDisplayType) => dispatch(setMailDisplayType(view));
 };
 
-export const useSelectHoverBlockID = () => useAppSelector((state) => state.editor.hoverBlock?.data_id);
+export const useSelectHoverBlockID = () => useAppSelector((state) => (state.editor.hoverBlock as any)?.data_id);
 export const useSelectHoverBlock = () => useAppSelector((state) => state.editor.hoverBlock);
 // TODO : corriger -- c'est en fait l'élément entier et pas juste l'id
 export const useSetHoverBlockID = () => {

@@ -16,7 +16,7 @@ export function DraggableSectionContainer({ className, columns, layout, children
 
   return (
     <Draggable
-      data={{ type: BlockType.SECTION_CONTAINER, columns, layout }}
+      data={{ type: BlockType.SECTION_CONTAINER, columns, layout } as any}
       className={className}
       onDragStart={() => setDragBlockType(BlockType.SECTION_CONTAINER)}
     >
